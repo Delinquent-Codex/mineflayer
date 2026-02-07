@@ -1,0 +1,19 @@
+{
+  "name": "mineflayer-bot",
+  "version": "0.2.0",
+  "description": "Mineflayer sorter bot with item-frame targets",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.16.0",
+    "mineflayer-pathfinder": "^2.5.0",
+    "minecraft-data": "^3.83.0",
+    "vec3": "^0.1.10"
+  }
+}
